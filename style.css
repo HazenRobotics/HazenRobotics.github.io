@@ -1,0 +1,34 @@
+/* Nav Styles */
+#nav-bar {}
+#nav-list {}
+.nav-list-item {}
+.nav-link {}
+
+/* Hero Styles */
+#hero {}
+#hero-content {}
+#hero-image {}
+
+/* Content Section Styles */
+#content-section {}
+
+/* Footer Styles */
+#footer {}
+.footer-link {}
+
+/* Grid Styles */
+.two-col-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+/* Element Styles */
+p {}
+img {}
+.contact-button {
+    color:white;
+    background: red;
+
+    padding: 3px;
+    border-radius: 0;
+}
