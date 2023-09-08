@@ -1,20 +1,48 @@
+:root {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background: white;
+    color:black;
+}
+
 /* Nav Styles */
-#nav-bar {}
-#nav-list {}
-.nav-list-item {}
-.nav-link {}
+/* #nav-bar {} */
+/* #nav-list {} */
+/* .nav-list-item {} */
+/* .nav-link {} */
+
+/* Nav Styles */
+#nav-bar {
+    font-weight:bold;
+    background:white;
+    position:sticky;
+}
+#nav-list {
+    list-style: none;
+}
+/* .nav-list-item {} */
+/* .nav-link {} */
 
 /* Hero Styles */
-#hero {}
-#hero-content {}
-#hero-image {}
+/* #hero {} */
+/* #hero-content {} */
+#hero-image {
+    width:100vw;
+}
 
 /* Content Section Styles */
-#content-section {}
+#content-section {
+    width:100vw;
+    background:blue;
+}
 
 /* Footer Styles */
-#footer {}
-.footer-link {}
+#footer {
+    font-family: sans-serif;
+    width:100vw;
+    background:darkslategrey;
+    color:white;
+}
+/* .footer-link {} */
 
 /* Grid Styles */
 .two-col-grid {
@@ -23,11 +51,12 @@
 }
 
 /* Element Styles */
-p {}
-img {}
+/* p {} */
+/* img {} */
 .contact-button {
     color:white;
     background: red;
+    font-weight:bold;
 
     padding: 3px;
     border-radius: 0;
