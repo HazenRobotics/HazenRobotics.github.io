@@ -1,48 +1,64 @@
-:root {
+html, body {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     background: white;
     color:black;
-}
 
-/* Nav Styles */
-/* #nav-bar {} */
-/* #nav-list {} */
-/* .nav-list-item {} */
-/* .nav-link {} */
+    margin:0;
+}
 
 /* Nav Styles */
 #nav-bar {
     font-weight:bold;
     background:white;
     position:sticky;
+    width:100vw;
 }
 #nav-list {
     list-style: none;
 }
-/* .nav-list-item {} */
-/* .nav-link {} */
+.nav-list-item {
+    display: inline-block;
+}
+.nav-link {
+    color:black;
+    text-decoration: none;
+}
+.nav-link:hover {
+    text-decoration: underline;
+}
+#nav-button {
+    float:right;
+}
 
 /* Hero Styles */
-/* #hero {} */
-/* #hero-content {} */
+#hero {
+    width: 100vw;
+}
+#hero-content {
+    width:100%;
+}
 #hero-image {
-    width:100vw;
+    width:100%;
 }
 
 /* Content Section Styles */
 #content-section {
-    width:100vw;
+    width:100%;
     background:blue;
+    margin: auto 0 0 0;
 }
 
 /* Footer Styles */
 #footer {
+    margin:0;
     font-family: sans-serif;
     width:100vw;
     background:darkslategrey;
     color:white;
 }
-/* .footer-link {} */
+.footer-link {
+    color:white;
+}
 
 /* Grid Styles */
 .two-col-grid {
@@ -60,4 +76,5 @@
 
     padding: 3px;
     border-radius: 0;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
