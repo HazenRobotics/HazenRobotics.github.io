@@ -12,6 +12,8 @@ html, body {
     background:white;
     position:sticky;
     width:100vw;
+    display: flex;
+    align-items: center;
 }
 #nav-list {
     list-style: none;
@@ -33,6 +35,7 @@ html, body {
 /* Hero Styles */
 #hero {
     width: 100vw;
+    padding: 5px;
 }
 #hero-content {
     width:100%;
