@@ -1,5 +1,5 @@
 html, body {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     background: white;
     color:black;
 
@@ -14,6 +14,8 @@ html, body {
     width:100vw;
     display: flex;
     align-items: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
 }
 #nav-list {
     list-style: none;
@@ -29,7 +31,8 @@ html, body {
     text-decoration: underline;
 }
 #nav-button {
-    float:right;
+    text-align:right;
+    font-size: 20px;
 }
 
 /* Hero Styles */
@@ -50,13 +53,13 @@ html, body {
     background:blue;
     color: white;
     margin: auto 0 0 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 /* #content-image {} */
 
 /* Footer Styles */
 #footer {
     margin:0;
-    font-family: sans-serif;
     width:100vw;
     background:darkslategrey;
     color:white;
@@ -80,7 +83,8 @@ html, body {
     background: red;
     font-weight:bold;
 
-    padding: 3px;
-    border-radius: 0;
+    padding: 5px;
+    border-radius: 5px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
 }
