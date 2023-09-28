@@ -48,8 +48,10 @@ html, body {
 #content-section {
     width:100%;
     background:blue;
+    color: white;
     margin: auto 0 0 0;
 }
+/* #content-image {} */
 
 /* Footer Styles */
 #footer {
@@ -61,6 +63,7 @@ html, body {
 }
 .footer-link {
     color:white;
+    text-decoration: underline;
 }
 
 /* Grid Styles */
