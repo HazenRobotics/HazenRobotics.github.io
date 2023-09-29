@@ -1,5 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500&display=swap');
+
 html, body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
     background: white;
     color:black;
 
@@ -8,13 +11,13 @@ html, body {
 
 /* Nav Styles */
 #nav-bar {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-weight:bold;
     background:white;
     position:sticky;
     width:100vw;
     display: flex;
     align-items: center;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 20px;
 }
 #nav-list {
@@ -22,6 +25,7 @@ html, body {
 }
 .nav-list-item {
     display: inline-block;
+    margin:0 10px 0 0;
 }
 .nav-link {
     color:black;
@@ -43,6 +47,9 @@ html, body {
 #hero-content {
     width:100%;
 }
+#hero-header {
+  font-weight: 500;
+}
 #hero-image {
     width:100%;
 }
@@ -53,7 +60,6 @@ html, body {
     background:blue;
     color: white;
     margin: auto 0 0 0;
-    font-family: Arial, Helvetica, sans-serif;
 }
 /* #content-image {} */
 
@@ -86,5 +92,4 @@ html, body {
     padding: 5px;
     border-radius: 5px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-
 }
